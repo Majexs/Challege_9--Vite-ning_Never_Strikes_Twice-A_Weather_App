@@ -11,7 +11,6 @@ class City {
   }
 }
 
-// TODO: Complete the HistoryService class
 class HistoryService {
   private async read() {
     return await fs.readFile('db/db.json', {
